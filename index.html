@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bank Account Management</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bank Account Management</h1>
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" />
+      <button onclick="deposit()">Deposit</button>
+      <button onclick="withdraw()">Withdraw</button>
+      <div class="balance">
+        <button onclick="checkBalance()">Check Balance</button>
+      </div>
+      <p id="balance">Balance: $0.00</p>
+    </div>
+  </body>
+</html>
